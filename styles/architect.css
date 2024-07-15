@@ -6,3 +6,157 @@
     font-weight:400;
     font-style: normal;
   }
+  /* sharyed styls */
+.display{
+    display: flex;
+}
+.text-primary{
+  color: #FF900E;
+}
+.dark-1{
+    color: #131313;
+}
+.dark-02{
+    color: #424242;
+}
+.dark-03{
+    color:#727272 ;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight:600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+}
+main{
+  max-width: 1440px;
+  margin: 0px auto;
+}
+main> section{
+  margin-top: 130px;
+}
+
+  /* header style */
+
+  /* navbar style */
+  .brand{
+    font-size:3rem;
+    font-weight:700;
+  }
+   .navbar{
+    justify-content: space-between;
+    align-items: center;
+   }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px ;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .banner, .navbar{
+    max-width: 1440px;
+    margin: 0px auto;
+
+  }
+  /* banner content */
+  .banner-content{
+    max-width: 850px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .banner-tittle{
+    font-weight: bold;
+    font-size: 4rem;
+    
+  }
+  .banner-img {
+    max-width: 100%;
+  }
+  /* teams and feature related style */
+
+  .teams{
+    align-items: center;
+    gap: 73px;
+    margin-left: 50px;
+  }
+  .team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .team-features {
+    max-width:530px;
+  }
+  .section-tittle{
+    font-size: 45px;
+    font-weight: 700;
+  }
+  #quick-list{
+    font-weight:500;
+  }
+
+
+  /* fact stule */
+
+  .fact-card{
+    border: 1px solid  #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+  }
+
+  .facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .fact-number{
+    font-size: 3rem;
+    font-weight: 600px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .fact-description{
+    max-width: 540px;
+     
+  }
+  /* Responsive banner */
+  @media screen and (max-width:576px) {
+    .navbar, .nav-links, .teams {
+        flex-direction: column;
+    }
+    .team-img-container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .team-features{
+      margin: auto;
+    }
+  }
+
+  
+  /* medium device for responsive */
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+      flex-direction: column;
+    }
+    .team-features{
+      margin: auto;
+    }
+  }
