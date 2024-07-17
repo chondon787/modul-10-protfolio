@@ -204,6 +204,9 @@ main> section{
     text-align: center;
     align-content: center;
   }
+  #name{
+    color:red;
+  }
 
   /* Responsive banner */
   @media screen and (max-width:576px) {
@@ -252,6 +255,7 @@ main> section{
     text-align: center;
     align-content: center;
   }
+  
 }
 
   
