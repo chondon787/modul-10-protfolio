@@ -242,6 +242,7 @@ main> section{
   }
   .footer-contant{
     font-size: 12px;
+    background-color: #fce8d1;
   }
   footer{
     max-width:100%;
