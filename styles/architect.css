@@ -196,6 +196,9 @@ main> section{
     .team-img-container, .facts-container, .sponsor-companies{
       grid-template-columns: repeat(1, 1fr);
     }
+    .team-img-container{
+      margin-right:50px;
+    }
     .team-features{
       margin: auto;
     }
