@@ -241,7 +241,15 @@ main> section{
     margin-bottom: 20px;
   }
   .footer-contant{
-    font-size: 18px;
+    font-size: 12px;
+  }
+  footer{
+    max-width:100%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    align-content: center;
   }
 }
 
