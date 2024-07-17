@@ -60,6 +60,7 @@ main> section{
   .nav-link{
     text-decoration: none;
   }
+  
   .banner, .navbar{
     max-width: 1440px;
     margin: 0px auto;
@@ -135,6 +136,9 @@ main> section{
   font-weight: 700;
   
 }
+.feature-architets img{
+  max-width: 100%;
+}
 
   /* fact stule */
 
@@ -186,7 +190,7 @@ main> section{
 
   /* Responsive banner */
   @media screen and (max-width:576px) {
-    .navbar, .nav-links, .teams {
+    .navbar, .nav-links, .teams, .feature {
         flex-direction: column;
     }
     .team-img-container, .facts-container, .sponsor-companies{
@@ -213,6 +217,9 @@ main> section{
   margin-left: 20px;
     
   }
+  .nav-item{
+    margin-bottom: 20px;
+  }
 }
 
   
@@ -229,4 +236,13 @@ main> section{
       grid-template-columns: repeat(2, 1fr);
       justify-items: center;
     }
+    #experience-badge{
+       margin-left: 200px;
+      margin-top: 20px;
+         
+      }
+      .feature-architets img{
+        max-width: 100%;
+        margin: 0px auto;
+      }
   }
